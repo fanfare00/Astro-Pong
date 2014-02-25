@@ -136,6 +136,10 @@ else
     audio_play_music(snd_deus_ex_James, true);
 }
 
+    if (display_get_height() &lt; 760)
+    {
+        window_set_size( 800, 600 );
+    }
 
     //controls
     global.input = "keyboard";
