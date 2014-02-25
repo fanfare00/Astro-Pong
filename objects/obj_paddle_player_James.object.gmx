@@ -41,6 +41,7 @@ global.enemyScore = 0;
 
 image_speed = (12);
 timer = 0;
+vsp = 0;
 
 global.holdGlow = false;
 
@@ -84,19 +85,27 @@ if (global.input == "keyboard")
     
     
     
-    if (Key_Up)
+    if (Key_Up) and (y &gt; 0)
     {
-        vspeed = -25;
+        vsp = -25;
+    }
+    else if (Key_Up) and (y &lt; 0)
+    {
+        vsp = 0;
     }
     
-    if (Key_Down)
+    if (Key_Down) and (y &lt; 768)
     {
-        vspeed = 25;
+        vsp = 25;
+    }
+    else if (Key_Down) and (y &gt; 768)
+    {
+        vsp = 0;
     }
     
     if ((Key_Up &amp;&amp; Key_Down) or (!Key_Up &amp;&amp; !Key_Down)) 
     {
-        vspeed = 0;
+        vsp = 0;
     }
     
     //if place_meeting(x, y, obj_boundary_top_James)
@@ -130,6 +139,8 @@ if sprite_index = spr_bounce_James and global.holdGlow == false
          timer = 0;
     }
 }
+
+y+=vsp;
 
 </string>
           </argument>
