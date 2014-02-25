@@ -8,7 +8,9 @@ that wanders the playing field deflecting both players shots, a star that curves
 fabric of space and time, an AI with adjustable difficulty, and the ability to collect
 energy and use it to charge up a powerful aimed shot. The game uses a neon color
 palate consisting primarily of orange, blue and pink with a cohesive space theme. All
-resources were created by me unless otherwise listed in the MEDIA section below.  
+resources were created by me unless otherwise listed in the MEDIA section below.
+
+![](http://i.imgur.com/W3xwuNR.png)
 
 GAME  INSTRUCTIONS
 ==================
