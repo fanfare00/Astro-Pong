@@ -221,6 +221,7 @@ draw_rectangle_color(topLeftX,         topLeftY+160,      bottomRightX,      bot
 draw_set_alpha(1);
         
         draw_set_color(c_lime)
+        draw_set_font(fnt_menu_score_James);
         draw_text_transformed(600-185,335, "easier", 0.15, 0.15, 0);
         
         draw_set_color(c_maroon)
