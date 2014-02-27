@@ -83,8 +83,6 @@ logoAnimationY = 0;
 
 
 
-draw_set_color(c_red);
-draw_text(100,100, string(global.musicVolume));
 
  if (room == rm_field)
  {  

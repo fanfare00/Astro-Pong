@@ -548,6 +548,7 @@ switch (ballColor)
         
     }
 
+
     //tell user hes out of energy when he tries to use charge with 0 energy
     //should be in interface, but I need it to be at a higher depth
 if (obj_interface_James.powerLevel == 0) and (keyboard_check(vk_space))
